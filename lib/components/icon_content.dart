@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 
 class IconContent extends StatelessWidget {
-  IconContent({this.cardIcon, this.iconText, });
+  IconContent({
+    this.cardIcon,
+    this.iconText,
+  });
 
   final IconData cardIcon;
   final String iconText;
